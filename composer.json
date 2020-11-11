@@ -1,0 +1,28 @@
+{
+  "name": "arcsym/solid-php",
+  "description": "Examples about SOLID in PHP",
+  "keywords": ["solid", "solid-principles", "php", "learning", "examples"],
+  "authors": [
+    {
+      "name": "Andrei Ripanu",
+      "email": "andrei.ripanu@arcsym.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.11",
+    "ext-json": "*",
+    "ext-pdo": "*"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Arcsym\\SolidPhp\\": "src/"
+    }
+  }
+}
